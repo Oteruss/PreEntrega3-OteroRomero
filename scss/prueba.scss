@@ -1,3 +1,12 @@
+/* Variables */
+
+$color-primario: #333;
+$color-secundario: #007bff;
+$color-terciario: #8a2be2; 
+
+
+
+
 /* Estilos generales */
 
 * {
@@ -31,12 +40,12 @@
   
     nav {
       a {
-        color: #333;
+        color: $color-primario;
         text-decoration: none;
         padding: 10px 15px;
   
         &:hover {
-          color: #007bff;
+          color: $color-secundario;
         }
       }
     }
@@ -78,7 +87,7 @@
   
   .btn-primary {
     border: none;
-    background-color: blueviolet;
+    background-color: $color-terciario;
     max-width: 10rem;
     margin-right: 10px;
   }
