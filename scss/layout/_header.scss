@@ -1,0 +1,74 @@
+header {
+    align-items: center;
+    background-color: $background-color-white;
+    color: $text-color-dark;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+    nav {
+      a {
+        color: $text-color-dark;
+        text-decoration: none;
+        padding: 10px 15px;
+  
+        &:hover {
+          color: $text-color-link-hover;
+        }
+      }
+    }
+  }
+  
+  .logo-image {
+    width: auto;
+    height: 2rem;
+    padding-right: 10px;
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+    color: $text-color-dark;
+    margin-left: 16px;
+  }
+  
+  // Hero Styles
+  .hero {
+    background-image: $hero-background-image;
+    background-position: center;
+    background-size: cover;
+    color: $background-color-white;
+    padding: 130px 0;
+    text-align: center;
+  
+    h1 {
+      font-weight: 600;
+      font-size: 48px;
+      margin-left: 40px;
+      text-align: left;
+    }
+  
+    p {
+      color: $background-color-white;
+      font-size: 18px;
+      margin-left: 40px;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+  }
+  
+  // Utility Classes
+  .d-flex {
+    margin-left: 40px;
+  }
+  
+  // Button Styles
+  .btn-primary {
+    border: none;
+    background-color: $background-color-primary;
+    max-width: 10rem;
+    margin-right: 10px;
+  }
+  
+  .btn-secondary {
+    max-width: 20rem;
+  }

@@ -6,21 +6,33 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url(/assets/font/Poppins-Bold.ttf);
+  src: url(/assets/font/Poppins-Regular.ttf);
 }
-.hero h1 {
+h1 {
+  font-family: "Poppins", "sans-serif";
   font-weight: 600;
   font-size: 48px;
-  margin-left: 40px;
-  text-align: left;
 }
 
-.hero p {
-  color: #fff;
-  font-size: 18px;
-  margin-left: 40px;
-  margin-bottom: 40px;
-  text-align: left;
+h2 {
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  color: #333;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  color: #333;
+  font-size: 24px;
+}
+
+p {
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
 }
 
 .button {
