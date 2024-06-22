@@ -1,31 +1,31 @@
-# Ignorar archivos HTML con prefijo
-._index.html
-._portafolio.html 
+# Ignorar archivos HTML
+**/._index.html
+**/._portafolio.html 
 
 # Ignorar archivos y directorios del sistema macOS
-.DS_Store
-._.DS_Store
+**/.DS_Store
+**/._.DS_Store
 
-# Ignorar archivos de fuentes específicos
-._Poppins-Bold.ttf
-._Poppins-Regular.ttf
+# Ignorar archivos de fuentes 
+**/._Poppins-Bold.ttf
+**/._Poppins-Regular.ttf
 
-# Ignorar archivos SVG específicos
-._adidas.svg
-._amazon.svg
-._citi.svg
-._facebook.svg
-._google.svg
-._logo.svg
-._mercedes.svg
-._tesla.svg
-._walmart.svg
-._warner.svg
+# Ignorar archivos SVG 
+**/._adidas.svg
+**/._amazon.svg
+**/._citi.svg
+**/._facebook.svg
+**/._google.svg
+**/._logo.svg
+**/._mercedes.svg
+**/._tesla.svg
+**/._walmart.svg
+**/._warner.svg
 
-# Ignorar archivos JPG específicos
-._book.jpg
-._branding.jpg
-._conferencia.jpg
-._contactanos.jpg
-._digitaldesigner.jpg
-._edificio.jpg
+# Ignorar archivos JPG 
+**/._book.jpg
+**/._branding.jpg
+**/._conferencia.jpg
+**/._contactanos.jpg
+**/._digitaldesigner.jpg
+**/._edificio.jpg
