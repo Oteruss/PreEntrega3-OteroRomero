@@ -22,19 +22,16 @@ header {
   justify-content: space-between;
   padding: 20px;
 }
-
 header .logo-image {
   width: auto;
   height: 2rem;
   padding-right: 10px;
 }
-
 header nav a {
   color: #333333;
   text-decoration: none;
   padding: 10px 15px;
 }
-
 header nav a:hover {
   color: #007bff;
 }
@@ -46,21 +43,19 @@ header nav a:hover {
 }
 
 .hero {
-  background-image: url(../assets/image/heroimg.jpeg);
+  background-image: url(../assets/image/heroimg.webp);
   background-position: center;
   background-size: cover;
   color: #ffffff;
   padding: 130px 0;
   text-align: center;
 }
-
 .hero h1 {
   font-weight: 600;
   font-size: 48px;
   margin-left: 40px;
   text-align: left;
 }
-
 .hero p {
   color: #fff;
   font-size: 18px;
@@ -89,12 +84,10 @@ section h2 {
   font-size: 2em;
   margin-bottom: 30px;
 }
-
 section h3 {
   font-size: 1.5em;
   margin-top: 15px;
 }
-
 section p {
   margin-bottom: 2rem;
   font-size: 1em;
@@ -105,12 +98,10 @@ section p {
   background-color: transparent;
   perspective: 1000px;
 }
-
 .flip-container .card {
   transition: transform 0.3s;
   transform-style: preserve-3d;
 }
-
 .flip-container .card:hover {
   transform: rotateY(180deg);
 }
@@ -119,20 +110,16 @@ section p {
 .portfolio .col-md-4 {
   transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .portfolio .col-md-4:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 .portfolio img {
   transition: filter 0.3s;
 }
-
 .portfolio img:hover {
   filter: brightness(50%);
 }
-
 .portfolio h3 {
   color: #8a2be2;
   display: flex;
@@ -145,7 +132,6 @@ figure {
   margin: 0;
   text-align: center;
 }
-
 figure img {
   max-width: 100%;
   height: auto;
@@ -158,11 +144,9 @@ figure img {
 form .form-group {
   margin-bottom: 15px;
 }
-
 form label {
   font-weight: 600;
 }
-
 form button {
   display: block;
   width: 100%;
@@ -189,13 +173,10 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
-
 footer nav a {
   color: white;
   margin: 0 10px;
 }
-
 footer nav a:hover {
   color: #007bff;
-}
-
+}/*# sourceMappingURL=style.css.map */

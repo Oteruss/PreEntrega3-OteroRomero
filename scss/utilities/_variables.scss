@@ -1,24 +1,15 @@
 $primary-color: #333;
-$secondary-color: #007bff;
+$secondary-color: hsl(211, 100%, 50%);
 $tertiary-color: #8a2be2; 
 $light-color: #fff;
 $dark-color: #000000;
 $font-family-primary: 'Poppins', 'sans-serif';
-$font-family-secondary: 'Poppins-regular', 'sans-serif';
 $hero-background: url('../assets/image/heroimg.jpeg');
 $portfolio-hover-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-$max-container-width: 
+$max-container-width: 1200px;
 $background-color-white: #fff;
 $text-color-dark: #333;
 $text-color-link-hover: #007bff;
-$background-color-primary: blueviolet;
+$background-color-primary: #8a2be2;
 $hero-background-image: url(/assets/image/heroimg.jpeg);
-
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
 

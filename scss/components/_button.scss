@@ -1,12 +1,10 @@
-.button {
-    background-color: #ffe173;
+.btn-primary {
     border: none;
-    border-radius: 30px;
-    color: #402300;
-    cursor: pointer;
-    flex: 1;
-    margin: 0 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    width: 150px;
-}
+    background-color: $tertiary-color;
+    max-width: 10rem;
+    margin-right: 10px;
+  }
+  
+  .btn-secondary {
+    max-width: 20rem;
+  }
