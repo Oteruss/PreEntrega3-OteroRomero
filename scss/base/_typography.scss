@@ -5,6 +5,7 @@ h1 {
 }
 
 h2 {
+    padding-bottom: 2rem;
     font-family: $font-family-primary;
     font-weight: 600;
     color: $primary-color;
@@ -23,4 +24,8 @@ p {
     font-weight: 600;
     color: $primary-color;
     font-size: 16px;
+}
+
+strong {
+    color: $primary-color;
 }
