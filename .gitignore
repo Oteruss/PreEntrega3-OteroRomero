@@ -1,6 +1,7 @@
 # Ignorar archivos HTML
 **/._index.html
 **/._portafolio.html 
+*/._portafolio.html 
 
 # Ignorar archivos y directorios del sistema macOS
 **/.DS_Store
