@@ -1,9 +1,16 @@
+# Ignorar archivos HTML con prefijo
 ._index.html
 ._portafolio.html 
+
+# Ignorar archivos y directorios del sistema macOS
 .DS_Store
 ._.DS_Store
+
+# Ignorar archivos de fuentes específicos
 ._Poppins-Bold.ttf
 ._Poppins-Regular.ttf
+
+# Ignorar archivos SVG específicos
 ._adidas.svg
 ._amazon.svg
 ._citi.svg
@@ -14,23 +21,11 @@
 ._tesla.svg
 ._walmart.svg
 ._warner.svg
+
+# Ignorar archivos JPG específicos
 ._book.jpg
 ._branding.jpg
 ._conferencia.jpg
 ._contactanos.jpg
 ._digitaldesigner.jpg
 ._edificio.jpg
-._email.jpg
-._heroimg.jpeg
-._html.jpg
-._ilustracion.jpg
-._logo.jpg
-._pantone.jpg
-._phone.jpg
-._session.jpg
-._teamwork.jpg
-._testimonios.jpg
-._ux.jpg
-._bootstrap.bundle.js.map
-._bootstrap.bundle.min.js
-._portafolio.html
