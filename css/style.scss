@@ -6,9 +6,11 @@ $color-terciario: #8a2be2;
 $color-light: #fff;
 $color-dark: #000000;
 $font-family-primary: 'Poppins', sans-serif;
-$hero-background: url('../assets/image/heroimg.webp');
+$hero-background: url('../assets/image/heroimg.jpeg');
 $portfolio-hover-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 $max-container-width: 1200px;
+$background-color-white: #fff;
+$text-color-dark: #333;
 $text-color-link-hover: #007bff;
 $background-color-primary: blueviolet;
 $hero-background-image: url(/assets/image/heroimg.jpeg);
@@ -115,44 +117,12 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: $font-family-primary;
-  font-weight: 600;
-  font-size: 48px;
-}
-
-h2 {
-  padding-bottom: 2rem;
-  font-family: $font-family-primary;
-  font-weight: 600;
-  color: $color-primario;
-  font-size: 32px;
-}
-
-h3 {
-  font-family: $font-family-primary;
-  font-weight: 600;
-  color: $color-primario;
-  font-size: 24px;
-}
-
-p {
-  font-family: $font-family-primary;
-  font-weight: 500;
-  color: $color-primario;
-  font-size: 16px;
-}
-
-strong {
-  color: $color-primario;
-}
-
 // Header
 
 header {
   align-items: center;
-  background-color: $color-light;
-  color: $color-primario;
+  background-color: #fff;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -165,12 +135,12 @@ header {
 
   nav {
     a {
-      color: $color-primario;
+      color: $primary-color;
       text-decoration: none;
       padding: 10px 15px;
 
       &:hover {
-        color: $color-secundario;
+        color: $secondary-color;
       }
     }
   }
@@ -178,17 +148,15 @@ header {
 
 .navbar-brand {
   font-weight: 600;
-  color: $color-primario;
+  color: $primary-color;
   margin-left: 16px;
 }
 
-// Hero
-
 .hero {
-  background-image: $hero-background-image;
+  background-image: url(../assets/image/heroimg.webp);
   background-position: center;
   background-size: cover;
-  color: $color-light;
+  color: $light-color;
   padding: 130px 0;
   text-align: center;
 
@@ -200,12 +168,16 @@ header {
   }
 
   p {
-    color: $color-light;
+    color: $light-color;
     font-size: 18px;
     margin-left: 40px;
     margin-bottom: 40px;
     text-align: left;
   }
+}
+
+strong {
+  color: $primary-color;
 }
 
 .d-flex {
@@ -214,7 +186,7 @@ header {
 
 .btn-primary {
   border: none;
-  background-color: $color-terciario;
+  background-color: $tertiary-color;
   max-width: 10rem;
   margin-right: 10px;
 }
@@ -239,11 +211,9 @@ section {
   p {
     margin-bottom: 2rem;
     font-size: 1em;
-    color: #666;
+    color: $primary-color;
   }
 }
-
-// Flip-container
 
 .flip-container {
   background-color: transparent;
@@ -267,7 +237,7 @@ section {
 
     &:hover {
       transform: scale(1.05);
-      box-shadow: $portfolio-hover-shadow;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
   }
 
@@ -280,7 +250,7 @@ section {
   }
 
   h3 {
-    color: $color-terciario;
+    color: $tertiary-color;
     display: flex;
     justify-content: center;
     font-size: 1.5em;
@@ -322,12 +292,6 @@ form {
 
 .container {
   padding: 60px 30px 30px 30px;
-
-  &.container-center {
-    width: 100%;
-    max-width: $max-container-width;
-    margin: 0 auto;
-  }
 }
 
 .row {
@@ -342,140 +306,19 @@ figure {
 // Footer
 
 footer {
-  background-color: $color-primario;
-  color: $color-light;
+  background-color: $primary-color;
+  color: $light-color;
   text-align: center;
   padding: 20px 0;
 
   nav {
     a {
-      color: $color-light;
+      color: $light-color;
       margin: 0 10px;
 
       &:hover {
-        color: $color-secundario;
+        color: $primary-color;
       }
     }
   }
-}
-
-// Específicos adicionales que se encontraron en las dos hojas originales
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('/assets/font/Poppins-Regular.ttf');
-}
-
-.container-center {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0% auto;
-}
-
-h2 {
-  font-size: 2em;
-  margin-bottom: 30px;
-}
-
-h3 {
-  font-size: 1.5em;
-  margin-top: 15px;
-}
-
-p {
-  margin-bottom: 2rem;
-  font-size: 1em;
-  color: #666;
-}
-
-.hero {
-  background-image: url(../assets/image/heroimg.webp);
-}
-
-header nav a {
-  color: #333;
-  text-decoration: none;
-  padding: 10px 15px;
-}
-
-header nav a:hover {
-  color: #007bff;
-}
-
-.navbar-brand {
-  font-weight: 600;
-  color: #333;
-  margin-left: 16px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-footer nav a {
-  color: #fff;
-  margin: 0 10px;
-}
-
-footer nav a:hover {
-  color: #007bff;
-}
-
-.btn-primary {
-  border: none;
-  background-color: blueviolet;
-}
-
-.d-flex {
-  display: flex;
-  align-items: center;
-}
-
-.flip-container {
-  background-color: transparent;
-  perspective: 1000px;
-}
-
-.card {
-  transition: transform 0.3s;
-  transform-style: preserve-3d;
-}
-
-.card:hover {
-  transform: rotateY(180deg);
-}
-
-figure {
-  margin: 0;
-  text-align: center;
-}
-
-figure img {
-  max-width: 100%;
-  height: auto;
-}
-
-.portfolio .col-md-4 {
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.portfolio .col-md-4:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.portfolio img {
-  transition: filter 0.3s;
-}
-
-.portfolio img:hover {
-  filter: brightness(50%);
-}
-
-.portfolio h3 {
-  display: flex;
-  justify-content: center;
 }
